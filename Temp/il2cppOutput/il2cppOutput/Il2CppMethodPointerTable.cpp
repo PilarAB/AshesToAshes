@@ -9175,94 +9175,6 @@ extern "C" void ScriptingUtils_CreateDelegate_m650796149 ();
 extern "C" void TypeInferenceRuleAttribute__ctor_m3137488504 ();
 extern "C" void TypeInferenceRuleAttribute__ctor_m2736695831 ();
 extern "C" void TypeInferenceRuleAttribute_ToString_m4089326196 ();
-extern "C" void Font_get_material_m1471867149 ();
-extern "C" void Font_HasCharacter_m2396486601 ();
-extern "C" void Font_add_textureRebuilt_m2164317336 ();
-extern "C" void Font_remove_textureRebuilt_m1198718614 ();
-extern "C" void Font_InvokeTextureRebuilt_Internal_m3260810449 ();
-extern "C" void Font_get_dynamic_m1338157964 ();
-extern "C" void Font_get_fontSize_m2823245826 ();
-extern "C" void FontTextureRebuildCallback__ctor_m3251169343 ();
-extern "C" void FontTextureRebuildCallback_Invoke_m3604797831 ();
-extern "C" void FontTextureRebuildCallback_BeginInvoke_m304512862 ();
-extern "C" void FontTextureRebuildCallback_EndInvoke_m3732346867 ();
-extern "C" void TextGenerationSettings_CompareColors_m3051734236_AdjustorThunk ();
-extern "C" void TextGenerationSettings_CompareVector2_m1914066862_AdjustorThunk ();
-extern "C" void TextGenerationSettings_Equals_m3618607189_AdjustorThunk ();
-extern "C" void TextGenerator__ctor_m2083174502 ();
-extern "C" void TextGenerator__ctor_m1349784994 ();
-extern "C" void TextGenerator_Init_m1168488231 ();
-extern "C" void TextGenerator_Dispose_cpp_m1826354328 ();
-extern "C" void TextGenerator_Populate_Internal_m235458295 ();
-extern "C" void TextGenerator_Populate_Internal_cpp_m3129180843 ();
-extern "C" void TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m4171649399 ();
-extern "C" void TextGenerator_get_rectExtents_m1954683619 ();
-extern "C" void TextGenerator_INTERNAL_get_rectExtents_m183810018 ();
-extern "C" void TextGenerator_GetVerticesInternal_m3222977969 ();
-extern "C" void TextGenerator_get_characterCount_m864136654 ();
-extern "C" void TextGenerator_get_characterCountVisible_m3790045314 ();
-extern "C" void TextGenerator_GetCharactersInternal_m518981545 ();
-extern "C" void TextGenerator_get_lineCount_m916872812 ();
-extern "C" void TextGenerator_GetLinesInternal_m3073492067 ();
-extern "C" void TextGenerator_Finalize_m1935290842 ();
-extern "C" void TextGenerator_System_IDisposable_Dispose_m231296259 ();
-extern "C" void TextGenerator_ValidatedSettings_m2281808551 ();
-extern "C" void TextGenerator_Invalidate_m1072346986 ();
-extern "C" void TextGenerator_GetCharacters_m3307287644 ();
-extern "C" void TextGenerator_GetLines_m1739216537 ();
-extern "C" void TextGenerator_GetVertices_m1494933754 ();
-extern "C" void TextGenerator_GetPreferredWidth_m3290188249 ();
-extern "C" void TextGenerator_GetPreferredHeight_m3514897836 ();
-extern "C" void TextGenerator_PopulateWithErrors_m1222498386 ();
-extern "C" void TextGenerator_Populate_m194003733 ();
-extern "C" void TextGenerator_PopulateWithError_m2946608503 ();
-extern "C" void TextGenerator_PopulateAlways_m1922695746 ();
-extern "C" void TextGenerator_get_verts_m2839413408 ();
-extern "C" void TextGenerator_get_characters_m3585880177 ();
-extern "C" void TextGenerator_get_lines_m2696243854 ();
-extern "C" void UIVertex__cctor_m1216617541 ();
-extern "C" void Animation_GetEnumerator_m1233868201 ();
-extern "C" void Animation_GetStateAtIndex_m3906320186 ();
-extern "C" void Animation_GetStateCount_m3809146648 ();
-extern "C" void Enumerator__ctor_m1737537150 ();
-extern "C" void Enumerator_get_Current_m3574888872 ();
-extern "C" void Enumerator_MoveNext_m4249399726 ();
-extern "C" void Enumerator_Reset_m2475628812 ();
-extern "C" void AnimationEvent__ctor_m234009954 ();
-extern "C" void AnimationClipPlayable_GetHandle_m3441351653_AdjustorThunk ();
-extern "C" void AnimationClipPlayable_Equals_m1031707451_AdjustorThunk ();
-extern "C" void AnimationLayerMixerPlayable__ctor_m860721801_AdjustorThunk ();
-extern "C" void AnimationLayerMixerPlayable_GetHandle_m3854437798_AdjustorThunk ();
-extern "C" void AnimationLayerMixerPlayable_Equals_m4271416323_AdjustorThunk ();
-extern "C" void AnimationLayerMixerPlayable__cctor_m4086299972 ();
-extern "C" void AnimationMixerPlayable_GetHandle_m2198358075_AdjustorThunk ();
-extern "C" void AnimationMixerPlayable_Equals_m3971478909_AdjustorThunk ();
-extern "C" void AnimationMotionXToDeltaPlayable_GetHandle_m1319190040_AdjustorThunk ();
-extern "C" void AnimationMotionXToDeltaPlayable_Equals_m3896842955_AdjustorThunk ();
-extern "C" void AnimationOffsetPlayable__ctor_m577157274_AdjustorThunk ();
-extern "C" void AnimationOffsetPlayable_GetHandle_m449079993_AdjustorThunk ();
-extern "C" void AnimationOffsetPlayable_Equals_m2902253045_AdjustorThunk ();
-extern "C" void AnimationOffsetPlayable__cctor_m1029460816 ();
-extern "C" void AnimatorControllerPlayable__ctor_m3584989806_AdjustorThunk ();
-extern "C" void AnimatorControllerPlayable_GetHandle_m2425630109_AdjustorThunk ();
-extern "C" void AnimatorControllerPlayable_SetHandle_m2260644454_AdjustorThunk ();
-extern "C" void AnimatorControllerPlayable_Equals_m3421642688_AdjustorThunk ();
-extern "C" void AnimatorControllerPlayable__cctor_m3439442711 ();
-extern "C" void AnimationState__ctor_m1160185825 ();
-extern "C" void Animator_SetTrigger_m2134052629 ();
-extern "C" void Animator_ResetTrigger_m2321267720 ();
-extern "C" void Animator_Play_m1697843332 ();
-extern "C" void Animator_Play_m2835034014 ();
-extern "C" void Animator_Play_m1207279914 ();
-extern "C" void Animator_get_hasBoundPlayables_m2940726619 ();
-extern "C" void Animator_StringToHash_m1666053228 ();
-extern "C" void Animator_SetTriggerString_m2612407758 ();
-extern "C" void Animator_ResetTriggerString_m394341254 ();
-extern "C" void AnimatorOverrideController_OnInvalidateOverrideController_m3380737075 ();
-extern "C" void OnOverrideControllerDirtyCallback__ctor_m2479189580 ();
-extern "C" void OnOverrideControllerDirtyCallback_Invoke_m764065723 ();
-extern "C" void OnOverrideControllerDirtyCallback_BeginInvoke_m3152352859 ();
-extern "C" void OnOverrideControllerDirtyCallback_EndInvoke_m2432606376 ();
 extern "C" void AudioClipPlayable_GetHandle_m1762771314_AdjustorThunk ();
 extern "C" void AudioClipPlayable_Equals_m3705880618_AdjustorThunk ();
 extern "C" void AudioMixerPlayable_GetHandle_m57919556_AdjustorThunk ();
@@ -9354,6 +9266,94 @@ extern "C" void SampleFramesHandler__ctor_m3908528909 ();
 extern "C" void SampleFramesHandler_Invoke_m544261268 ();
 extern "C" void SampleFramesHandler_BeginInvoke_m2992664336 ();
 extern "C" void SampleFramesHandler_EndInvoke_m3715791887 ();
+extern "C" void Font_get_material_m1471867149 ();
+extern "C" void Font_HasCharacter_m2396486601 ();
+extern "C" void Font_add_textureRebuilt_m2164317336 ();
+extern "C" void Font_remove_textureRebuilt_m1198718614 ();
+extern "C" void Font_InvokeTextureRebuilt_Internal_m3260810449 ();
+extern "C" void Font_get_dynamic_m1338157964 ();
+extern "C" void Font_get_fontSize_m2823245826 ();
+extern "C" void FontTextureRebuildCallback__ctor_m3251169343 ();
+extern "C" void FontTextureRebuildCallback_Invoke_m3604797831 ();
+extern "C" void FontTextureRebuildCallback_BeginInvoke_m304512862 ();
+extern "C" void FontTextureRebuildCallback_EndInvoke_m3732346867 ();
+extern "C" void TextGenerationSettings_CompareColors_m3051734236_AdjustorThunk ();
+extern "C" void TextGenerationSettings_CompareVector2_m1914066862_AdjustorThunk ();
+extern "C" void TextGenerationSettings_Equals_m3618607189_AdjustorThunk ();
+extern "C" void TextGenerator__ctor_m2083174502 ();
+extern "C" void TextGenerator__ctor_m1349784994 ();
+extern "C" void TextGenerator_Init_m1168488231 ();
+extern "C" void TextGenerator_Dispose_cpp_m1826354328 ();
+extern "C" void TextGenerator_Populate_Internal_m235458295 ();
+extern "C" void TextGenerator_Populate_Internal_cpp_m3129180843 ();
+extern "C" void TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m4171649399 ();
+extern "C" void TextGenerator_get_rectExtents_m1954683619 ();
+extern "C" void TextGenerator_INTERNAL_get_rectExtents_m183810018 ();
+extern "C" void TextGenerator_GetVerticesInternal_m3222977969 ();
+extern "C" void TextGenerator_get_characterCount_m864136654 ();
+extern "C" void TextGenerator_get_characterCountVisible_m3790045314 ();
+extern "C" void TextGenerator_GetCharactersInternal_m518981545 ();
+extern "C" void TextGenerator_get_lineCount_m916872812 ();
+extern "C" void TextGenerator_GetLinesInternal_m3073492067 ();
+extern "C" void TextGenerator_Finalize_m1935290842 ();
+extern "C" void TextGenerator_System_IDisposable_Dispose_m231296259 ();
+extern "C" void TextGenerator_ValidatedSettings_m2281808551 ();
+extern "C" void TextGenerator_Invalidate_m1072346986 ();
+extern "C" void TextGenerator_GetCharacters_m3307287644 ();
+extern "C" void TextGenerator_GetLines_m1739216537 ();
+extern "C" void TextGenerator_GetVertices_m1494933754 ();
+extern "C" void TextGenerator_GetPreferredWidth_m3290188249 ();
+extern "C" void TextGenerator_GetPreferredHeight_m3514897836 ();
+extern "C" void TextGenerator_PopulateWithErrors_m1222498386 ();
+extern "C" void TextGenerator_Populate_m194003733 ();
+extern "C" void TextGenerator_PopulateWithError_m2946608503 ();
+extern "C" void TextGenerator_PopulateAlways_m1922695746 ();
+extern "C" void TextGenerator_get_verts_m2839413408 ();
+extern "C" void TextGenerator_get_characters_m3585880177 ();
+extern "C" void TextGenerator_get_lines_m2696243854 ();
+extern "C" void UIVertex__cctor_m1216617541 ();
+extern "C" void Animation_GetEnumerator_m1233868201 ();
+extern "C" void Animation_GetStateAtIndex_m3906320186 ();
+extern "C" void Animation_GetStateCount_m3809146648 ();
+extern "C" void Enumerator__ctor_m1737537150 ();
+extern "C" void Enumerator_get_Current_m3574888872 ();
+extern "C" void Enumerator_MoveNext_m4249399726 ();
+extern "C" void Enumerator_Reset_m2475628812 ();
+extern "C" void AnimationEvent__ctor_m234009954 ();
+extern "C" void AnimationClipPlayable_GetHandle_m3441351653_AdjustorThunk ();
+extern "C" void AnimationClipPlayable_Equals_m1031707451_AdjustorThunk ();
+extern "C" void AnimationLayerMixerPlayable__ctor_m860721801_AdjustorThunk ();
+extern "C" void AnimationLayerMixerPlayable_GetHandle_m3854437798_AdjustorThunk ();
+extern "C" void AnimationLayerMixerPlayable_Equals_m4271416323_AdjustorThunk ();
+extern "C" void AnimationLayerMixerPlayable__cctor_m4086299972 ();
+extern "C" void AnimationMixerPlayable_GetHandle_m2198358075_AdjustorThunk ();
+extern "C" void AnimationMixerPlayable_Equals_m3971478909_AdjustorThunk ();
+extern "C" void AnimationMotionXToDeltaPlayable_GetHandle_m1319190040_AdjustorThunk ();
+extern "C" void AnimationMotionXToDeltaPlayable_Equals_m3896842955_AdjustorThunk ();
+extern "C" void AnimationOffsetPlayable__ctor_m577157274_AdjustorThunk ();
+extern "C" void AnimationOffsetPlayable_GetHandle_m449079993_AdjustorThunk ();
+extern "C" void AnimationOffsetPlayable_Equals_m2902253045_AdjustorThunk ();
+extern "C" void AnimationOffsetPlayable__cctor_m1029460816 ();
+extern "C" void AnimatorControllerPlayable__ctor_m3584989806_AdjustorThunk ();
+extern "C" void AnimatorControllerPlayable_GetHandle_m2425630109_AdjustorThunk ();
+extern "C" void AnimatorControllerPlayable_SetHandle_m2260644454_AdjustorThunk ();
+extern "C" void AnimatorControllerPlayable_Equals_m3421642688_AdjustorThunk ();
+extern "C" void AnimatorControllerPlayable__cctor_m3439442711 ();
+extern "C" void AnimationState__ctor_m1160185825 ();
+extern "C" void Animator_SetTrigger_m2134052629 ();
+extern "C" void Animator_ResetTrigger_m2321267720 ();
+extern "C" void Animator_Play_m1697843332 ();
+extern "C" void Animator_Play_m2835034014 ();
+extern "C" void Animator_Play_m1207279914 ();
+extern "C" void Animator_get_hasBoundPlayables_m2940726619 ();
+extern "C" void Animator_StringToHash_m1666053228 ();
+extern "C" void Animator_SetTriggerString_m2612407758 ();
+extern "C" void Animator_ResetTriggerString_m394341254 ();
+extern "C" void AnimatorOverrideController_OnInvalidateOverrideController_m3380737075 ();
+extern "C" void OnOverrideControllerDirtyCallback__ctor_m2479189580 ();
+extern "C" void OnOverrideControllerDirtyCallback_Invoke_m764065723 ();
+extern "C" void OnOverrideControllerDirtyCallback_BeginInvoke_m3152352859 ();
+extern "C" void OnOverrideControllerDirtyCallback_EndInvoke_m2432606376 ();
 extern "C" void GameCenterPlatform__ctor_m3480810288 ();
 extern "C" void GameCenterPlatform_ClearAchievementDescriptions_m3199616787 ();
 extern "C" void GameCenterPlatform_SetAchievementDescription_m2719524812 ();
@@ -9877,6 +9877,32 @@ extern "C" void CertificateHandler_ValidateCertificateNative_m2315002656 ();
 extern "C" void CertificateHandler_Dispose_m2100863831 ();
 extern "C" void WebRequestUtils_RedirectTo_m55747000 ();
 extern "C" void WebRequestUtils__cctor_m4190982137 ();
+extern "C" void VideoClipPlayable_GetHandle_m2166158330_AdjustorThunk ();
+extern "C" void VideoClipPlayable_Equals_m2063112376_AdjustorThunk ();
+extern "C" void VideoPlayer_InvokePrepareCompletedCallback_Internal_m891859246 ();
+extern "C" void VideoPlayer_InvokeFrameReadyCallback_Internal_m795190166 ();
+extern "C" void VideoPlayer_InvokeLoopPointReachedCallback_Internal_m3470582081 ();
+extern "C" void VideoPlayer_InvokeStartedCallback_Internal_m3936194096 ();
+extern "C" void VideoPlayer_InvokeFrameDroppedCallback_Internal_m984464440 ();
+extern "C" void VideoPlayer_InvokeErrorReceivedCallback_Internal_m3291790132 ();
+extern "C" void VideoPlayer_InvokeSeekCompletedCallback_Internal_m716586074 ();
+extern "C" void VideoPlayer_InvokeClockResyncOccurredCallback_Internal_m1660582043 ();
+extern "C" void ErrorEventHandler__ctor_m1187192887 ();
+extern "C" void ErrorEventHandler_Invoke_m2692795411 ();
+extern "C" void ErrorEventHandler_BeginInvoke_m2704839404 ();
+extern "C" void ErrorEventHandler_EndInvoke_m2574503704 ();
+extern "C" void EventHandler__ctor_m838423014 ();
+extern "C" void EventHandler_Invoke_m264911794 ();
+extern "C" void EventHandler_BeginInvoke_m2714081538 ();
+extern "C" void EventHandler_EndInvoke_m1665908986 ();
+extern "C" void FrameReadyEventHandler__ctor_m4117293896 ();
+extern "C" void FrameReadyEventHandler_Invoke_m4235069853 ();
+extern "C" void FrameReadyEventHandler_BeginInvoke_m3423367811 ();
+extern "C" void FrameReadyEventHandler_EndInvoke_m2202588656 ();
+extern "C" void TimeEventHandler__ctor_m25310196 ();
+extern "C" void TimeEventHandler_Invoke_m2893540100 ();
+extern "C" void TimeEventHandler_BeginInvoke_m2542334896 ();
+extern "C" void TimeEventHandler_EndInvoke_m2619486746 ();
 extern "C" void AbstractEventData__ctor_m2094677034 ();
 extern "C" void AbstractEventData_Reset_m2321187134 ();
 extern "C" void AbstractEventData_Use_m3777213589 ();
@@ -12206,7 +12232,7 @@ extern "C" void U3CCoPlaytimeUpdateU3Ec__Iterator0_System_Collections_Generic_IE
 extern "C" void U3CCoPlaytimeUpdateU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m861088357 ();
 extern "C" void U3CCoPlaytimeUpdateU3Ec__Iterator0_Dispose_m4019003967 ();
 extern "C" void U3CCoPlaytimeUpdateU3Ec__Iterator0_Reset_m3114401786 ();
-extern const Il2CppMethodPointer g_MethodPointers[12187] = 
+extern const Il2CppMethodPointer g_MethodPointers[12213] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -21364,94 +21390,6 @@ extern const Il2CppMethodPointer g_MethodPointers[12187] =
 	TypeInferenceRuleAttribute__ctor_m3137488504,
 	TypeInferenceRuleAttribute__ctor_m2736695831,
 	TypeInferenceRuleAttribute_ToString_m4089326196,
-	Font_get_material_m1471867149,
-	Font_HasCharacter_m2396486601,
-	Font_add_textureRebuilt_m2164317336,
-	Font_remove_textureRebuilt_m1198718614,
-	Font_InvokeTextureRebuilt_Internal_m3260810449,
-	Font_get_dynamic_m1338157964,
-	Font_get_fontSize_m2823245826,
-	FontTextureRebuildCallback__ctor_m3251169343,
-	FontTextureRebuildCallback_Invoke_m3604797831,
-	FontTextureRebuildCallback_BeginInvoke_m304512862,
-	FontTextureRebuildCallback_EndInvoke_m3732346867,
-	TextGenerationSettings_CompareColors_m3051734236_AdjustorThunk,
-	TextGenerationSettings_CompareVector2_m1914066862_AdjustorThunk,
-	TextGenerationSettings_Equals_m3618607189_AdjustorThunk,
-	TextGenerator__ctor_m2083174502,
-	TextGenerator__ctor_m1349784994,
-	TextGenerator_Init_m1168488231,
-	TextGenerator_Dispose_cpp_m1826354328,
-	TextGenerator_Populate_Internal_m235458295,
-	TextGenerator_Populate_Internal_cpp_m3129180843,
-	TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m4171649399,
-	TextGenerator_get_rectExtents_m1954683619,
-	TextGenerator_INTERNAL_get_rectExtents_m183810018,
-	TextGenerator_GetVerticesInternal_m3222977969,
-	TextGenerator_get_characterCount_m864136654,
-	TextGenerator_get_characterCountVisible_m3790045314,
-	TextGenerator_GetCharactersInternal_m518981545,
-	TextGenerator_get_lineCount_m916872812,
-	TextGenerator_GetLinesInternal_m3073492067,
-	TextGenerator_Finalize_m1935290842,
-	TextGenerator_System_IDisposable_Dispose_m231296259,
-	TextGenerator_ValidatedSettings_m2281808551,
-	TextGenerator_Invalidate_m1072346986,
-	TextGenerator_GetCharacters_m3307287644,
-	TextGenerator_GetLines_m1739216537,
-	TextGenerator_GetVertices_m1494933754,
-	TextGenerator_GetPreferredWidth_m3290188249,
-	TextGenerator_GetPreferredHeight_m3514897836,
-	TextGenerator_PopulateWithErrors_m1222498386,
-	TextGenerator_Populate_m194003733,
-	TextGenerator_PopulateWithError_m2946608503,
-	TextGenerator_PopulateAlways_m1922695746,
-	TextGenerator_get_verts_m2839413408,
-	TextGenerator_get_characters_m3585880177,
-	TextGenerator_get_lines_m2696243854,
-	UIVertex__cctor_m1216617541,
-	Animation_GetEnumerator_m1233868201,
-	Animation_GetStateAtIndex_m3906320186,
-	Animation_GetStateCount_m3809146648,
-	Enumerator__ctor_m1737537150,
-	Enumerator_get_Current_m3574888872,
-	Enumerator_MoveNext_m4249399726,
-	Enumerator_Reset_m2475628812,
-	AnimationEvent__ctor_m234009954,
-	AnimationClipPlayable_GetHandle_m3441351653_AdjustorThunk,
-	AnimationClipPlayable_Equals_m1031707451_AdjustorThunk,
-	AnimationLayerMixerPlayable__ctor_m860721801_AdjustorThunk,
-	AnimationLayerMixerPlayable_GetHandle_m3854437798_AdjustorThunk,
-	AnimationLayerMixerPlayable_Equals_m4271416323_AdjustorThunk,
-	AnimationLayerMixerPlayable__cctor_m4086299972,
-	AnimationMixerPlayable_GetHandle_m2198358075_AdjustorThunk,
-	AnimationMixerPlayable_Equals_m3971478909_AdjustorThunk,
-	AnimationMotionXToDeltaPlayable_GetHandle_m1319190040_AdjustorThunk,
-	AnimationMotionXToDeltaPlayable_Equals_m3896842955_AdjustorThunk,
-	AnimationOffsetPlayable__ctor_m577157274_AdjustorThunk,
-	AnimationOffsetPlayable_GetHandle_m449079993_AdjustorThunk,
-	AnimationOffsetPlayable_Equals_m2902253045_AdjustorThunk,
-	AnimationOffsetPlayable__cctor_m1029460816,
-	AnimatorControllerPlayable__ctor_m3584989806_AdjustorThunk,
-	AnimatorControllerPlayable_GetHandle_m2425630109_AdjustorThunk,
-	AnimatorControllerPlayable_SetHandle_m2260644454_AdjustorThunk,
-	AnimatorControllerPlayable_Equals_m3421642688_AdjustorThunk,
-	AnimatorControllerPlayable__cctor_m3439442711,
-	AnimationState__ctor_m1160185825,
-	Animator_SetTrigger_m2134052629,
-	Animator_ResetTrigger_m2321267720,
-	Animator_Play_m1697843332,
-	Animator_Play_m2835034014,
-	Animator_Play_m1207279914,
-	Animator_get_hasBoundPlayables_m2940726619,
-	Animator_StringToHash_m1666053228,
-	Animator_SetTriggerString_m2612407758,
-	Animator_ResetTriggerString_m394341254,
-	AnimatorOverrideController_OnInvalidateOverrideController_m3380737075,
-	OnOverrideControllerDirtyCallback__ctor_m2479189580,
-	OnOverrideControllerDirtyCallback_Invoke_m764065723,
-	OnOverrideControllerDirtyCallback_BeginInvoke_m3152352859,
-	OnOverrideControllerDirtyCallback_EndInvoke_m2432606376,
 	AudioClipPlayable_GetHandle_m1762771314_AdjustorThunk,
 	AudioClipPlayable_Equals_m3705880618_AdjustorThunk,
 	AudioMixerPlayable_GetHandle_m57919556_AdjustorThunk,
@@ -21543,6 +21481,94 @@ extern const Il2CppMethodPointer g_MethodPointers[12187] =
 	SampleFramesHandler_Invoke_m544261268,
 	SampleFramesHandler_BeginInvoke_m2992664336,
 	SampleFramesHandler_EndInvoke_m3715791887,
+	Font_get_material_m1471867149,
+	Font_HasCharacter_m2396486601,
+	Font_add_textureRebuilt_m2164317336,
+	Font_remove_textureRebuilt_m1198718614,
+	Font_InvokeTextureRebuilt_Internal_m3260810449,
+	Font_get_dynamic_m1338157964,
+	Font_get_fontSize_m2823245826,
+	FontTextureRebuildCallback__ctor_m3251169343,
+	FontTextureRebuildCallback_Invoke_m3604797831,
+	FontTextureRebuildCallback_BeginInvoke_m304512862,
+	FontTextureRebuildCallback_EndInvoke_m3732346867,
+	TextGenerationSettings_CompareColors_m3051734236_AdjustorThunk,
+	TextGenerationSettings_CompareVector2_m1914066862_AdjustorThunk,
+	TextGenerationSettings_Equals_m3618607189_AdjustorThunk,
+	TextGenerator__ctor_m2083174502,
+	TextGenerator__ctor_m1349784994,
+	TextGenerator_Init_m1168488231,
+	TextGenerator_Dispose_cpp_m1826354328,
+	TextGenerator_Populate_Internal_m235458295,
+	TextGenerator_Populate_Internal_cpp_m3129180843,
+	TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m4171649399,
+	TextGenerator_get_rectExtents_m1954683619,
+	TextGenerator_INTERNAL_get_rectExtents_m183810018,
+	TextGenerator_GetVerticesInternal_m3222977969,
+	TextGenerator_get_characterCount_m864136654,
+	TextGenerator_get_characterCountVisible_m3790045314,
+	TextGenerator_GetCharactersInternal_m518981545,
+	TextGenerator_get_lineCount_m916872812,
+	TextGenerator_GetLinesInternal_m3073492067,
+	TextGenerator_Finalize_m1935290842,
+	TextGenerator_System_IDisposable_Dispose_m231296259,
+	TextGenerator_ValidatedSettings_m2281808551,
+	TextGenerator_Invalidate_m1072346986,
+	TextGenerator_GetCharacters_m3307287644,
+	TextGenerator_GetLines_m1739216537,
+	TextGenerator_GetVertices_m1494933754,
+	TextGenerator_GetPreferredWidth_m3290188249,
+	TextGenerator_GetPreferredHeight_m3514897836,
+	TextGenerator_PopulateWithErrors_m1222498386,
+	TextGenerator_Populate_m194003733,
+	TextGenerator_PopulateWithError_m2946608503,
+	TextGenerator_PopulateAlways_m1922695746,
+	TextGenerator_get_verts_m2839413408,
+	TextGenerator_get_characters_m3585880177,
+	TextGenerator_get_lines_m2696243854,
+	UIVertex__cctor_m1216617541,
+	Animation_GetEnumerator_m1233868201,
+	Animation_GetStateAtIndex_m3906320186,
+	Animation_GetStateCount_m3809146648,
+	Enumerator__ctor_m1737537150,
+	Enumerator_get_Current_m3574888872,
+	Enumerator_MoveNext_m4249399726,
+	Enumerator_Reset_m2475628812,
+	AnimationEvent__ctor_m234009954,
+	AnimationClipPlayable_GetHandle_m3441351653_AdjustorThunk,
+	AnimationClipPlayable_Equals_m1031707451_AdjustorThunk,
+	AnimationLayerMixerPlayable__ctor_m860721801_AdjustorThunk,
+	AnimationLayerMixerPlayable_GetHandle_m3854437798_AdjustorThunk,
+	AnimationLayerMixerPlayable_Equals_m4271416323_AdjustorThunk,
+	AnimationLayerMixerPlayable__cctor_m4086299972,
+	AnimationMixerPlayable_GetHandle_m2198358075_AdjustorThunk,
+	AnimationMixerPlayable_Equals_m3971478909_AdjustorThunk,
+	AnimationMotionXToDeltaPlayable_GetHandle_m1319190040_AdjustorThunk,
+	AnimationMotionXToDeltaPlayable_Equals_m3896842955_AdjustorThunk,
+	AnimationOffsetPlayable__ctor_m577157274_AdjustorThunk,
+	AnimationOffsetPlayable_GetHandle_m449079993_AdjustorThunk,
+	AnimationOffsetPlayable_Equals_m2902253045_AdjustorThunk,
+	AnimationOffsetPlayable__cctor_m1029460816,
+	AnimatorControllerPlayable__ctor_m3584989806_AdjustorThunk,
+	AnimatorControllerPlayable_GetHandle_m2425630109_AdjustorThunk,
+	AnimatorControllerPlayable_SetHandle_m2260644454_AdjustorThunk,
+	AnimatorControllerPlayable_Equals_m3421642688_AdjustorThunk,
+	AnimatorControllerPlayable__cctor_m3439442711,
+	AnimationState__ctor_m1160185825,
+	Animator_SetTrigger_m2134052629,
+	Animator_ResetTrigger_m2321267720,
+	Animator_Play_m1697843332,
+	Animator_Play_m2835034014,
+	Animator_Play_m1207279914,
+	Animator_get_hasBoundPlayables_m2940726619,
+	Animator_StringToHash_m1666053228,
+	Animator_SetTriggerString_m2612407758,
+	Animator_ResetTriggerString_m394341254,
+	AnimatorOverrideController_OnInvalidateOverrideController_m3380737075,
+	OnOverrideControllerDirtyCallback__ctor_m2479189580,
+	OnOverrideControllerDirtyCallback_Invoke_m764065723,
+	OnOverrideControllerDirtyCallback_BeginInvoke_m3152352859,
+	OnOverrideControllerDirtyCallback_EndInvoke_m2432606376,
 	GameCenterPlatform__ctor_m3480810288,
 	GameCenterPlatform_ClearAchievementDescriptions_m3199616787,
 	GameCenterPlatform_SetAchievementDescription_m2719524812,
@@ -22066,6 +22092,32 @@ extern const Il2CppMethodPointer g_MethodPointers[12187] =
 	CertificateHandler_Dispose_m2100863831,
 	WebRequestUtils_RedirectTo_m55747000,
 	WebRequestUtils__cctor_m4190982137,
+	VideoClipPlayable_GetHandle_m2166158330_AdjustorThunk,
+	VideoClipPlayable_Equals_m2063112376_AdjustorThunk,
+	VideoPlayer_InvokePrepareCompletedCallback_Internal_m891859246,
+	VideoPlayer_InvokeFrameReadyCallback_Internal_m795190166,
+	VideoPlayer_InvokeLoopPointReachedCallback_Internal_m3470582081,
+	VideoPlayer_InvokeStartedCallback_Internal_m3936194096,
+	VideoPlayer_InvokeFrameDroppedCallback_Internal_m984464440,
+	VideoPlayer_InvokeErrorReceivedCallback_Internal_m3291790132,
+	VideoPlayer_InvokeSeekCompletedCallback_Internal_m716586074,
+	VideoPlayer_InvokeClockResyncOccurredCallback_Internal_m1660582043,
+	ErrorEventHandler__ctor_m1187192887,
+	ErrorEventHandler_Invoke_m2692795411,
+	ErrorEventHandler_BeginInvoke_m2704839404,
+	ErrorEventHandler_EndInvoke_m2574503704,
+	EventHandler__ctor_m838423014,
+	EventHandler_Invoke_m264911794,
+	EventHandler_BeginInvoke_m2714081538,
+	EventHandler_EndInvoke_m1665908986,
+	FrameReadyEventHandler__ctor_m4117293896,
+	FrameReadyEventHandler_Invoke_m4235069853,
+	FrameReadyEventHandler_BeginInvoke_m3423367811,
+	FrameReadyEventHandler_EndInvoke_m2202588656,
+	TimeEventHandler__ctor_m25310196,
+	TimeEventHandler_Invoke_m2893540100,
+	TimeEventHandler_BeginInvoke_m2542334896,
+	TimeEventHandler_EndInvoke_m2619486746,
 	AbstractEventData__ctor_m2094677034,
 	AbstractEventData_Reset_m2321187134,
 	AbstractEventData_Use_m3777213589,

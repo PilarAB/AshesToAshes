@@ -1311,8 +1311,8 @@ struct UnityARPlaneDetectionU5BU5D_t3458580926;
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEOBJECT_H
-#ifndef U3CMODULEU3E_T692745544_H
-#define U3CMODULEU3E_T692745544_H
+#ifndef U3CMODULEU3E_T692745545_H
+#define U3CMODULEU3E_T692745545_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1320,7 +1320,7 @@ struct UnityARPlaneDetectionU5BU5D_t3458580926;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t692745544 
+struct  U3CModuleU3E_t692745545 
 {
 public:
 
@@ -1330,7 +1330,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T692745544_H
+#endif // U3CMODULEU3E_T692745545_H
 #ifndef LIST_1_T2751098672_H
 #define LIST_1_T2751098672_H
 #ifdef __clang__
