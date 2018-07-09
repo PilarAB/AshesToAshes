@@ -859,6 +859,8 @@ extern String_t* _stringLiteral596573941;
 extern const uint32_t Math_Abs_m1208936174_MetadataUsageId;
 extern const RuntimeMethod* Math_Abs_m2270691510_RuntimeMethod_var;
 extern const uint32_t Math_Abs_m2270691510_MetadataUsageId;
+extern RuntimeClass* BitConverter_t3118986983_il2cpp_TypeInfo_var;
+extern const uint32_t Math_IEEERemainder_m1747102664_MetadataUsageId;
 extern RuntimeClass* Decimal_t2948259380_il2cpp_TypeInfo_var;
 extern const uint32_t Math_Round_m3018379666_MetadataUsageId;
 extern String_t* _stringLiteral3423128635;
@@ -1032,7 +1034,6 @@ extern const uint32_t NumberFormatter_DecHexLen_m3886828604_MetadataUsageId;
 extern const uint32_t NumberFormatter_DecHexLen_m510984344_MetadataUsageId;
 extern const uint32_t NumberFormatter_ScaleOrder_m3813786990_MetadataUsageId;
 extern const uint32_t NumberFormatter_Init_m3326584660_MetadataUsageId;
-extern RuntimeClass* BitConverter_t3118986983_il2cpp_TypeInfo_var;
 extern const uint32_t NumberFormatter_Init_m3576155222_MetadataUsageId;
 extern const uint32_t NumberFormatter_Init_m1925374739_MetadataUsageId;
 extern const uint32_t NumberFormatter_ResetCharBuf_m1098525658_MetadataUsageId;
@@ -15531,6 +15532,8 @@ extern "C"  Lease_t4051722892 * ServerIdentity_get_Lease_m2153931427 (ServerIden
 extern "C"  void Lease__ctor_m3269477734 (Lease_t4051722892 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.OverflowException::.ctor(System.String)
 extern "C"  void OverflowException__ctor_m694321376 (OverflowException_t2020128637 * __this, String_t* ___message0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Double System.BitConverter::Int64BitsToDouble(System.Int64)
+extern "C"  double BitConverter_Int64BitsToDouble_m3718933722 (RuntimeObject * __this /* static, unused */, int64_t ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Double::IsNaN(System.Double)
 extern "C"  bool Double_IsNaN_m649024406 (RuntimeObject * __this /* static, unused */, double ___d0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Single::IsNaN(System.Single)
@@ -23788,6 +23791,72 @@ IL_001a:
 extern "C"  double Math_Floor_m1840375750 (RuntimeObject * __this /* static, unused */, double ___d0, const RuntimeMethod* method)
 {
 	return floor(___d0);
+}
+// System.Double System.Math::IEEERemainder(System.Double,System.Double)
+extern "C"  double Math_IEEERemainder_m1747102664 (RuntimeObject * __this /* static, unused */, double ___x0, double ___y1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Math_IEEERemainder_m1747102664_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	double G_B7_0 = 0.0;
+	{
+		double L_0 = ___y1;
+		if ((!(((double)L_0) == ((double)(0.0)))))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		return (std::numeric_limits<double>::quiet_NaN());
+	}
+
+IL_0019:
+	{
+		double L_1 = ___x0;
+		double L_2 = ___y1;
+		double L_3 = ___x0;
+		double L_4 = ___y1;
+		double L_5 = bankers_round(((double)((double)L_3/(double)L_4)));
+		V_0 = ((double)il2cpp_codegen_subtract((double)L_1, (double)((double)il2cpp_codegen_multiply((double)L_2, (double)L_5))));
+		double L_6 = V_0;
+		if ((((double)L_6) == ((double)(0.0))))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		double L_7 = V_0;
+		return L_7;
+	}
+
+IL_0037:
+	{
+		double L_8 = ___x0;
+		if ((!(((double)L_8) > ((double)(0.0)))))
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		G_B7_0 = (0.0);
+		goto IL_0062;
+	}
+
+IL_0054:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(BitConverter_t3118986983_il2cpp_TypeInfo_var);
+		double L_9 = BitConverter_Int64BitsToDouble_m3718933722(NULL /*static, unused*/, ((int64_t)std::numeric_limits<int64_t>::min()), /*hidden argument*/NULL);
+		G_B7_0 = L_9;
+	}
+
+IL_0062:
+	{
+		return G_B7_0;
+	}
 }
 // System.Double System.Math::Log(System.Double,System.Double)
 extern "C"  double Math_Log_m734258591 (RuntimeObject * __this /* static, unused */, double ___a0, double ___newBase1, const RuntimeMethod* method)

@@ -1251,7 +1251,9 @@ extern const uint32_t Attribute_Equals_m710241514_MetadataUsageId;
 extern RuntimeClass* BitConverter_t3118986983_il2cpp_TypeInfo_var;
 extern const uint32_t BitConverter__cctor_m3841343255_MetadataUsageId;
 extern const uint32_t BitConverter_DoubleToInt64Bits_m3574395137_MetadataUsageId;
+extern const uint32_t BitConverter_Int64BitsToDouble_m3718933722_MetadataUsageId;
 extern const uint32_t BitConverter_GetBytes_m2120707223_MetadataUsageId;
+extern const uint32_t BitConverter_GetBytes_m4144088731_MetadataUsageId;
 extern const uint32_t BitConverter_GetBytes_m692533364_MetadataUsageId;
 extern const uint32_t BitConverter_GetBytes_m3693159656_MetadataUsageId;
 extern const RuntimeMethod* BitConverter_PutBytes_m2614286581_RuntimeMethod_var;
@@ -1261,6 +1263,8 @@ extern String_t* _stringLiteral218911153;
 extern const uint32_t BitConverter_PutBytes_m2614286581_MetadataUsageId;
 extern const uint32_t BitConverter_ToInt64_m349022421_MetadataUsageId;
 extern const uint32_t BitConverter_ToSingle_m2597008633_MetadataUsageId;
+extern const RuntimeMethod* BitConverter_ToDouble_m527296068_RuntimeMethod_var;
+extern const uint32_t BitConverter_ToDouble_m527296068_MetadataUsageId;
 extern const RuntimeMethod* BitConverter_ToString_m3464863163_RuntimeMethod_var;
 extern const uint32_t BitConverter_ToString_m3464863163_MetadataUsageId;
 extern const RuntimeMethod* BitConverter_ToString_m3439099539_RuntimeMethod_var;
@@ -14910,6 +14914,10 @@ extern "C"  bool BitConverter_AmILittleEndian_m4092412670 (RuntimeObject * __thi
 extern "C"  ByteU5BU5D_t4116647657* BitConverter_GetBytes_m3693159656 (RuntimeObject * __this /* static, unused */, double ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.BitConverter::ToInt64(System.Byte[],System.Int32)
 extern "C"  int64_t BitConverter_ToInt64_m349022421 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t4116647657* ___value0, int32_t ___startIndex1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Byte[] System.BitConverter::GetBytes(System.Int64)
+extern "C"  ByteU5BU5D_t4116647657* BitConverter_GetBytes_m4144088731 (RuntimeObject * __this /* static, unused */, int64_t ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Double System.BitConverter::ToDouble(System.Byte[],System.Int32)
+extern "C"  double BitConverter_ToDouble_m527296068 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t4116647657* ___value0, int32_t ___startIndex1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.BitConverter::GetBytes(System.Byte*,System.Int32)
 extern "C"  ByteU5BU5D_t4116647657* BitConverter_GetBytes_m2120707223 (RuntimeObject * __this /* static, unused */, uint8_t* ___ptr0, int32_t ___count1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.BitConverter::PutBytes(System.Byte*,System.Byte[],System.Int32,System.Int32)
@@ -35169,6 +35177,23 @@ extern "C"  int64_t BitConverter_DoubleToInt64Bits_m3574395137 (RuntimeObject * 
 		return L_2;
 	}
 }
+// System.Double System.BitConverter::Int64BitsToDouble(System.Int64)
+extern "C"  double BitConverter_Int64BitsToDouble_m3718933722 (RuntimeObject * __this /* static, unused */, int64_t ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BitConverter_Int64BitsToDouble_m3718933722_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = ___value0;
+		IL2CPP_RUNTIME_CLASS_INIT(BitConverter_t3118986983_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t4116647657* L_1 = BitConverter_GetBytes_m4144088731(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		double L_2 = BitConverter_ToDouble_m527296068(NULL /*static, unused*/, L_1, 0, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
 // System.Byte[] System.BitConverter::GetBytes(System.Byte*,System.Int32)
 extern "C"  ByteU5BU5D_t4116647657* BitConverter_GetBytes_m2120707223 (RuntimeObject * __this /* static, unused */, uint8_t* ___ptr0, int32_t ___count1, const RuntimeMethod* method)
 {
@@ -35212,6 +35237,21 @@ IL_0019:
 	{
 		ByteU5BU5D_t4116647657* L_9 = V_0;
 		return L_9;
+	}
+}
+// System.Byte[] System.BitConverter::GetBytes(System.Int64)
+extern "C"  ByteU5BU5D_t4116647657* BitConverter_GetBytes_m4144088731 (RuntimeObject * __this /* static, unused */, int64_t ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BitConverter_GetBytes_m4144088731_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(BitConverter_t3118986983_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t4116647657* L_0 = BitConverter_GetBytes_m2120707223(NULL /*static, unused*/, (uint8_t*)(uint8_t*)(&___value0), 8, /*hidden argument*/NULL);
+		return L_0;
 	}
 }
 // System.Byte[] System.BitConverter::GetBytes(System.Single)
@@ -35430,6 +35470,152 @@ extern "C"  float BitConverter_ToSingle_m2597008633 (RuntimeObject * __this /* s
 		BitConverter_PutBytes_m2614286581(NULL /*static, unused*/, (uint8_t*)(uint8_t*)(&V_0), L_0, L_1, 4, /*hidden argument*/NULL);
 		float L_2 = V_0;
 		return L_2;
+	}
+}
+// System.Double System.BitConverter::ToDouble(System.Byte[],System.Int32)
+extern "C"  double BitConverter_ToDouble_m527296068 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t4116647657* ___value0, int32_t ___startIndex1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BitConverter_ToDouble_m527296068_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	uint8_t* V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(BitConverter_t3118986983_il2cpp_TypeInfo_var);
+		bool L_0 = ((BitConverter_t3118986983_StaticFields*)il2cpp_codegen_static_fields_for(BitConverter_t3118986983_il2cpp_TypeInfo_var))->get_SwappedWordsInDouble_0();
+		if (!L_0)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		V_1 = (uint8_t*)(&V_0);
+		ByteU5BU5D_t4116647657* L_1 = ___value0;
+		if (L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		ArgumentNullException_t1615371798 * L_2 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1170824041(L_2, _stringLiteral3493618073, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, NULL, BitConverter_ToDouble_m527296068_RuntimeMethod_var);
+	}
+
+IL_001e:
+	{
+		int32_t L_3 = ___startIndex1;
+		if ((((int32_t)L_3) < ((int32_t)0)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		int32_t L_4 = ___startIndex1;
+		ByteU5BU5D_t4116647657* L_5 = ___value0;
+		NullCheck(L_5);
+		if ((((int32_t)L_4) <= ((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_5)->max_length)))), (int32_t)1)))))
+		{
+			goto IL_0040;
+		}
+	}
+
+IL_0030:
+	{
+		ArgumentOutOfRangeException_t777629997 * L_6 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m282481429(L_6, _stringLiteral2410720131, _stringLiteral1358229803, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, NULL, BitConverter_ToDouble_m527296068_RuntimeMethod_var);
+	}
+
+IL_0040:
+	{
+		ByteU5BU5D_t4116647657* L_7 = ___value0;
+		NullCheck(L_7);
+		int32_t L_8 = ___startIndex1;
+		if ((((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_7)->max_length)))), (int32_t)8))) >= ((int32_t)L_8)))
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		ArgumentException_t132251570 * L_9 = (ArgumentException_t132251570 *)il2cpp_codegen_object_new(ArgumentException_t132251570_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m1312628991(L_9, _stringLiteral218911153, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9, NULL, BitConverter_ToDouble_m527296068_RuntimeMethod_var);
+	}
+
+IL_0056:
+	{
+		uint8_t* L_10 = V_1;
+		ByteU5BU5D_t4116647657* L_11 = ___value0;
+		int32_t L_12 = ___startIndex1;
+		NullCheck(L_11);
+		int32_t L_13 = ((int32_t)il2cpp_codegen_add((int32_t)L_12, (int32_t)4));
+		uint8_t L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		*((int8_t*)(L_10)) = (int8_t)L_14;
+		uint8_t* L_15 = V_1;
+		ByteU5BU5D_t4116647657* L_16 = ___value0;
+		int32_t L_17 = ___startIndex1;
+		NullCheck(L_16);
+		int32_t L_18 = ((int32_t)il2cpp_codegen_add((int32_t)L_17, (int32_t)5));
+		uint8_t L_19 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		*((int8_t*)(((uint8_t*)il2cpp_codegen_add((intptr_t)L_15, (int32_t)1)))) = (int8_t)L_19;
+		uint8_t* L_20 = V_1;
+		ByteU5BU5D_t4116647657* L_21 = ___value0;
+		int32_t L_22 = ___startIndex1;
+		NullCheck(L_21);
+		int32_t L_23 = ((int32_t)il2cpp_codegen_add((int32_t)L_22, (int32_t)6));
+		uint8_t L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		*((int8_t*)(((uint8_t*)il2cpp_codegen_add((intptr_t)L_20, (int32_t)2)))) = (int8_t)L_24;
+		uint8_t* L_25 = V_1;
+		ByteU5BU5D_t4116647657* L_26 = ___value0;
+		int32_t L_27 = ___startIndex1;
+		NullCheck(L_26);
+		int32_t L_28 = ((int32_t)il2cpp_codegen_add((int32_t)L_27, (int32_t)7));
+		uint8_t L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		*((int8_t*)(((uint8_t*)il2cpp_codegen_add((intptr_t)L_25, (int32_t)3)))) = (int8_t)L_29;
+		uint8_t* L_30 = V_1;
+		ByteU5BU5D_t4116647657* L_31 = ___value0;
+		int32_t L_32 = ___startIndex1;
+		NullCheck(L_31);
+		int32_t L_33 = L_32;
+		uint8_t L_34 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
+		*((int8_t*)(((uint8_t*)il2cpp_codegen_add((intptr_t)L_30, (int32_t)4)))) = (int8_t)L_34;
+		uint8_t* L_35 = V_1;
+		ByteU5BU5D_t4116647657* L_36 = ___value0;
+		int32_t L_37 = ___startIndex1;
+		NullCheck(L_36);
+		int32_t L_38 = ((int32_t)il2cpp_codegen_add((int32_t)L_37, (int32_t)1));
+		uint8_t L_39 = (L_36)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
+		*((int8_t*)(((uint8_t*)il2cpp_codegen_add((intptr_t)L_35, (int32_t)5)))) = (int8_t)L_39;
+		uint8_t* L_40 = V_1;
+		ByteU5BU5D_t4116647657* L_41 = ___value0;
+		int32_t L_42 = ___startIndex1;
+		NullCheck(L_41);
+		int32_t L_43 = ((int32_t)il2cpp_codegen_add((int32_t)L_42, (int32_t)2));
+		uint8_t L_44 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		*((int8_t*)(((uint8_t*)il2cpp_codegen_add((intptr_t)L_40, (int32_t)6)))) = (int8_t)L_44;
+		uint8_t* L_45 = V_1;
+		ByteU5BU5D_t4116647657* L_46 = ___value0;
+		int32_t L_47 = ___startIndex1;
+		NullCheck(L_46);
+		int32_t L_48 = ((int32_t)il2cpp_codegen_add((int32_t)L_47, (int32_t)3));
+		uint8_t L_49 = (L_46)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
+		*((int8_t*)(((uint8_t*)il2cpp_codegen_add((intptr_t)L_45, (int32_t)7)))) = (int8_t)L_49;
+		double L_50 = V_0;
+		return L_50;
+	}
+
+IL_009c:
+	{
+		ByteU5BU5D_t4116647657* L_51 = ___value0;
+		int32_t L_52 = ___startIndex1;
+		IL2CPP_RUNTIME_CLASS_INIT(BitConverter_t3118986983_il2cpp_TypeInfo_var);
+		BitConverter_PutBytes_m2614286581(NULL /*static, unused*/, (uint8_t*)(uint8_t*)(&V_0), L_51, L_52, 8, /*hidden argument*/NULL);
+		double L_53 = V_0;
+		return L_53;
 	}
 }
 // System.String System.BitConverter::ToString(System.Byte[])

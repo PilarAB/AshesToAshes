@@ -14543,7 +14543,7 @@ extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m1970353910_gsh
 // TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Key()
 extern "C"  RuntimeObject * KeyValuePair_2_get_Key_m4184817181_gshared (KeyValuePair_2_t2530217319 * __this, const RuntimeMethod* method);
 // TValue System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Value()
-extern "C"  RuntimeObject * KeyValuePair_2_get_Value_m1132502692_gshared (KeyValuePair_2_t2530217319 * __this, const RuntimeMethod* method);
+extern "C"  RuntimeObject * KeyValuePair_2_get_Value_m3464904234_gshared (KeyValuePair_2_t2530217319 * __this, const RuntimeMethod* method);
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::System.Collections.IDictionaryEnumerator.get_Entry()
 extern "C"  DictionaryEntry_t3123975638  Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m3417028588_gshared (Enumerator_t2086727927 * __this, const RuntimeMethod* method);
 // TKey System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::get_CurrentKey()
@@ -14561,7 +14561,7 @@ extern "C"  void KeyValuePair_2__ctor_m1794021352_gshared (KeyValuePair_2_t25302
 // System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::MoveNext()
 extern "C"  bool Enumerator_MoveNext_m1107569389_gshared (Enumerator_t2086727927 * __this, const RuntimeMethod* method);
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::get_Current()
-extern "C"  KeyValuePair_2_t2530217319  Enumerator_get_Current_m2198442938_gshared (Enumerator_t2086727927 * __this, const RuntimeMethod* method);
+extern "C"  KeyValuePair_2_t2530217319  Enumerator_get_Current_m2655181939_gshared (Enumerator_t2086727927 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::Dispose()
 extern "C"  void Enumerator_Dispose_m3885012575_gshared (Enumerator_t2086727927 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Single>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
@@ -15682,7 +15682,7 @@ extern "C"  void ObjectDisposedException__ctor_m3603759869 (ObjectDisposedExcept
 // TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Key()
 #define KeyValuePair_2_get_Key_m4184817181(__this, method) ((  RuntimeObject * (*) (KeyValuePair_2_t2530217319 *, const RuntimeMethod*))KeyValuePair_2_get_Key_m4184817181_gshared)(__this, method)
 // TValue System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Value()
-#define KeyValuePair_2_get_Value_m1132502692(__this, method) ((  RuntimeObject * (*) (KeyValuePair_2_t2530217319 *, const RuntimeMethod*))KeyValuePair_2_get_Value_m1132502692_gshared)(__this, method)
+#define KeyValuePair_2_get_Value_m3464904234(__this, method) ((  RuntimeObject * (*) (KeyValuePair_2_t2530217319 *, const RuntimeMethod*))KeyValuePair_2_get_Value_m3464904234_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::System.Collections.IDictionaryEnumerator.get_Entry()
 #define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m3417028588(__this, method) ((  DictionaryEntry_t3123975638  (*) (Enumerator_t2086727927 *, const RuntimeMethod*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m3417028588_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::get_CurrentKey()
@@ -15700,7 +15700,7 @@ extern "C"  void ObjectDisposedException__ctor_m3603759869 (ObjectDisposedExcept
 // System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::MoveNext()
 #define Enumerator_MoveNext_m1107569389(__this, method) ((  bool (*) (Enumerator_t2086727927 *, const RuntimeMethod*))Enumerator_MoveNext_m1107569389_gshared)(__this, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::get_Current()
-#define Enumerator_get_Current_m2198442938(__this, method) ((  KeyValuePair_2_t2530217319  (*) (Enumerator_t2086727927 *, const RuntimeMethod*))Enumerator_get_Current_m2198442938_gshared)(__this, method)
+#define Enumerator_get_Current_m2655181939(__this, method) ((  KeyValuePair_2_t2530217319  (*) (Enumerator_t2086727927 *, const RuntimeMethod*))Enumerator_get_Current_m2655181939_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::Dispose()
 #define Enumerator_Dispose_m3885012575(__this, method) ((  void (*) (Enumerator_t2086727927 *, const RuntimeMethod*))Enumerator_Dispose_m3885012575_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Single>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
@@ -36019,7 +36019,7 @@ extern "C"  DictionaryEntry_t3123975638  Enumerator_System_Collections_IDictiona
 		KeyValuePair_2_t2530217319 * L_0 = (KeyValuePair_2_t2530217319 *)__this->get_address_of_current_3();
 		RuntimeObject * L_1 = KeyValuePair_2_get_Key_m4184817181((KeyValuePair_2_t2530217319 *)(KeyValuePair_2_t2530217319 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		KeyValuePair_2_t2530217319 * L_2 = (KeyValuePair_2_t2530217319 *)__this->get_address_of_current_3();
-		RuntimeObject * L_3 = KeyValuePair_2_get_Value_m1132502692((KeyValuePair_2_t2530217319 *)(KeyValuePair_2_t2530217319 *)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		RuntimeObject * L_3 = KeyValuePair_2_get_Value_m3464904234((KeyValuePair_2_t2530217319 *)(KeyValuePair_2_t2530217319 *)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		DictionaryEntry_t3123975638  L_4;
 		memset(&L_4, 0, sizeof(L_4));
 		DictionaryEntry__ctor_m2585376310((&L_4), (RuntimeObject *)L_1, (RuntimeObject *)L_3, /*hidden argument*/NULL);
@@ -36142,17 +36142,17 @@ extern "C"  bool Enumerator_MoveNext_m1107569389_AdjustorThunk (RuntimeObject * 
 	return Enumerator_MoveNext_m1107569389(_thisAdjusted, method);
 }
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::get_Current()
-extern "C"  KeyValuePair_2_t2530217319  Enumerator_get_Current_m2198442938_gshared (Enumerator_t2086727927 * __this, const RuntimeMethod* method)
+extern "C"  KeyValuePair_2_t2530217319  Enumerator_get_Current_m2655181939_gshared (Enumerator_t2086727927 * __this, const RuntimeMethod* method)
 {
 	{
 		KeyValuePair_2_t2530217319  L_0 = (KeyValuePair_2_t2530217319 )__this->get_current_3();
 		return L_0;
 	}
 }
-extern "C"  KeyValuePair_2_t2530217319  Enumerator_get_Current_m2198442938_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+extern "C"  KeyValuePair_2_t2530217319  Enumerator_get_Current_m2655181939_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	Enumerator_t2086727927 * _thisAdjusted = reinterpret_cast<Enumerator_t2086727927 *>(__this + 1);
-	return Enumerator_get_Current_m2198442938(_thisAdjusted, method);
+	return Enumerator_get_Current_m2655181939(_thisAdjusted, method);
 }
 // TKey System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::get_CurrentKey()
 extern "C"  RuntimeObject * Enumerator_get_CurrentKey_m3735262888_gshared (Enumerator_t2086727927 * __this, const RuntimeMethod* method)
@@ -36175,7 +36175,7 @@ extern "C"  RuntimeObject * Enumerator_get_CurrentValue_m785745355_gshared (Enum
 	{
 		Enumerator_VerifyCurrent_m93918543((Enumerator_t2086727927 *)(Enumerator_t2086727927 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		KeyValuePair_2_t2530217319 * L_0 = (KeyValuePair_2_t2530217319 *)__this->get_address_of_current_3();
-		RuntimeObject * L_1 = KeyValuePair_2_get_Value_m1132502692((KeyValuePair_2_t2530217319 *)(KeyValuePair_2_t2530217319 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		RuntimeObject * L_1 = KeyValuePair_2_get_Value_m3464904234((KeyValuePair_2_t2530217319 *)(KeyValuePair_2_t2530217319 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		return L_1;
 	}
 }
@@ -36995,7 +36995,7 @@ extern "C"  RuntimeObject * ShimEnumerator_get_Key_m4155849607_gshared (ShimEnum
 	memset(&V_0, 0, sizeof(V_0));
 	{
 		Enumerator_t2086727927 * L_0 = (Enumerator_t2086727927 *)__this->get_address_of_host_enumerator_0();
-		KeyValuePair_2_t2530217319  L_1 = Enumerator_get_Current_m2198442938((Enumerator_t2086727927 *)(Enumerator_t2086727927 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 3));
+		KeyValuePair_2_t2530217319  L_1 = Enumerator_get_Current_m2655181939((Enumerator_t2086727927 *)(Enumerator_t2086727927 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 3));
 		V_0 = (KeyValuePair_2_t2530217319 )L_1;
 		RuntimeObject * L_2 = KeyValuePair_2_get_Key_m4184817181((KeyValuePair_2_t2530217319 *)(KeyValuePair_2_t2530217319 *)(&V_0), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 4));
 		return L_2;
@@ -37008,9 +37008,9 @@ extern "C"  RuntimeObject * ShimEnumerator_get_Value_m1878724567_gshared (ShimEn
 	memset(&V_0, 0, sizeof(V_0));
 	{
 		Enumerator_t2086727927 * L_0 = (Enumerator_t2086727927 *)__this->get_address_of_host_enumerator_0();
-		KeyValuePair_2_t2530217319  L_1 = Enumerator_get_Current_m2198442938((Enumerator_t2086727927 *)(Enumerator_t2086727927 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 3));
+		KeyValuePair_2_t2530217319  L_1 = Enumerator_get_Current_m2655181939((Enumerator_t2086727927 *)(Enumerator_t2086727927 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 3));
 		V_0 = (KeyValuePair_2_t2530217319 )L_1;
-		RuntimeObject * L_2 = KeyValuePair_2_get_Value_m1132502692((KeyValuePair_2_t2530217319 *)(KeyValuePair_2_t2530217319 *)(&V_0), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 6));
+		RuntimeObject * L_2 = KeyValuePair_2_get_Value_m3464904234((KeyValuePair_2_t2530217319 *)(KeyValuePair_2_t2530217319 *)(&V_0), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 6));
 		return L_2;
 	}
 }

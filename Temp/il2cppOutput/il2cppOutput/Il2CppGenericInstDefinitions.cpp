@@ -343,6 +343,8 @@ extern const Il2CppType List_1_t1234605051_0_0_0;
 extern const Il2CppType BlendMode_t2312137432_0_0_0;
 extern const Il2CppType Config_t125921618_0_0_0;
 extern const Il2CppType ParticleSystem_t1800779281_0_0_0;
+extern const Il2CppType KeyValuePair_2_t2708414825_0_0_0;
+extern const Il2CppType KeyValuePair_2_t2473313435_0_0_0;
 extern const Il2CppType KeyValuePair_2_t847377929_0_0_0;
 extern const Il2CppType KeyValuePair_2_t3580195240_0_0_0;
 extern const Il2CppType Link_t1976611498_0_0_0;
@@ -388,6 +390,10 @@ extern const Il2CppType UnityARUserAnchorComponent_t969893952_0_0_0;
 extern const Il2CppType serializableFromEditorMessage_t3245497382_0_0_0;
 extern const Il2CppType DontDestroyOnLoad_t1456007215_0_0_0;
 extern const Il2CppType MeshFilter_t3523625662_0_0_0;
+extern const Il2CppType Skybox_t2662837510_0_0_0;
+extern const Il2CppType FlareLayer_t1739223323_0_0_0;
+extern const Il2CppType PlanarReflection_t439636033_0_0_0;
+extern const Il2CppType WaterBase_t3883863317_0_0_0;
 extern const Il2CppType Int32U5BU5D_t385246372_0_0_0;
 extern const Il2CppType VolumetricLightBeam_t2153204538_0_0_0;
 extern const Il2CppType Rotater_t3354584216_0_0_0;
@@ -1300,6 +1306,18 @@ static const RuntimeType* GenInst_Config_t125921618_0_0_0_Types[] = { (&Config_t
 extern const Il2CppGenericInst GenInst_Config_t125921618_0_0_0 = { 1, GenInst_Config_t125921618_0_0_0_Types };
 static const RuntimeType* GenInst_ParticleSystem_t1800779281_0_0_0_Types[] = { (&ParticleSystem_t1800779281_0_0_0) };
 extern const Il2CppGenericInst GenInst_ParticleSystem_t1800779281_0_0_0 = { 1, GenInst_ParticleSystem_t1800779281_0_0_0_Types };
+static const RuntimeType* GenInst_Camera_t4157153871_0_0_0_Boolean_t97287965_0_0_0_Types[] = { (&Camera_t4157153871_0_0_0), (&Boolean_t97287965_0_0_0) };
+extern const Il2CppGenericInst GenInst_Camera_t4157153871_0_0_0_Boolean_t97287965_0_0_0 = { 2, GenInst_Camera_t4157153871_0_0_0_Boolean_t97287965_0_0_0_Types };
+static const RuntimeType* GenInst_Camera_t4157153871_0_0_0_Boolean_t97287965_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types[] = { (&Camera_t4157153871_0_0_0), (&Boolean_t97287965_0_0_0), (&DictionaryEntry_t3123975638_0_0_0) };
+extern const Il2CppGenericInst GenInst_Camera_t4157153871_0_0_0_Boolean_t97287965_0_0_0_DictionaryEntry_t3123975638_0_0_0 = { 3, GenInst_Camera_t4157153871_0_0_0_Boolean_t97287965_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types };
+static const RuntimeType* GenInst_KeyValuePair_2_t2708414825_0_0_0_Types[] = { (&KeyValuePair_2_t2708414825_0_0_0) };
+extern const Il2CppGenericInst GenInst_KeyValuePair_2_t2708414825_0_0_0 = { 1, GenInst_KeyValuePair_2_t2708414825_0_0_0_Types };
+static const RuntimeType* GenInst_Camera_t4157153871_0_0_0_Camera_t4157153871_0_0_0_Types[] = { (&Camera_t4157153871_0_0_0), (&Camera_t4157153871_0_0_0) };
+extern const Il2CppGenericInst GenInst_Camera_t4157153871_0_0_0_Camera_t4157153871_0_0_0 = { 2, GenInst_Camera_t4157153871_0_0_0_Camera_t4157153871_0_0_0_Types };
+static const RuntimeType* GenInst_Camera_t4157153871_0_0_0_Camera_t4157153871_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types[] = { (&Camera_t4157153871_0_0_0), (&Camera_t4157153871_0_0_0), (&DictionaryEntry_t3123975638_0_0_0) };
+extern const Il2CppGenericInst GenInst_Camera_t4157153871_0_0_0_Camera_t4157153871_0_0_0_DictionaryEntry_t3123975638_0_0_0 = { 3, GenInst_Camera_t4157153871_0_0_0_Camera_t4157153871_0_0_0_DictionaryEntry_t3123975638_0_0_0_Types };
+static const RuntimeType* GenInst_KeyValuePair_2_t2473313435_0_0_0_Types[] = { (&KeyValuePair_2_t2473313435_0_0_0) };
+extern const Il2CppGenericInst GenInst_KeyValuePair_2_t2473313435_0_0_0 = { 1, GenInst_KeyValuePair_2_t2473313435_0_0_0_Types };
 static const RuntimeType* GenInst_String_t_0_0_0_Single_t1397266774_0_0_0_Types[] = { (&String_t_0_0_0), (&Single_t1397266774_0_0_0) };
 extern const Il2CppGenericInst GenInst_String_t_0_0_0_Single_t1397266774_0_0_0 = { 2, GenInst_String_t_0_0_0_Single_t1397266774_0_0_0_Types };
 static const RuntimeType* GenInst_KeyValuePair_2_t847377929_0_0_0_Types[] = { (&KeyValuePair_2_t847377929_0_0_0) };
@@ -1408,6 +1426,14 @@ static const RuntimeType* GenInst_DontDestroyOnLoad_t1456007215_0_0_0_Types[] = 
 extern const Il2CppGenericInst GenInst_DontDestroyOnLoad_t1456007215_0_0_0 = { 1, GenInst_DontDestroyOnLoad_t1456007215_0_0_0_Types };
 static const RuntimeType* GenInst_MeshFilter_t3523625662_0_0_0_Types[] = { (&MeshFilter_t3523625662_0_0_0) };
 extern const Il2CppGenericInst GenInst_MeshFilter_t3523625662_0_0_0 = { 1, GenInst_MeshFilter_t3523625662_0_0_0_Types };
+static const RuntimeType* GenInst_Skybox_t2662837510_0_0_0_Types[] = { (&Skybox_t2662837510_0_0_0) };
+extern const Il2CppGenericInst GenInst_Skybox_t2662837510_0_0_0 = { 1, GenInst_Skybox_t2662837510_0_0_0_Types };
+static const RuntimeType* GenInst_FlareLayer_t1739223323_0_0_0_Types[] = { (&FlareLayer_t1739223323_0_0_0) };
+extern const Il2CppGenericInst GenInst_FlareLayer_t1739223323_0_0_0 = { 1, GenInst_FlareLayer_t1739223323_0_0_0_Types };
+static const RuntimeType* GenInst_PlanarReflection_t439636033_0_0_0_Types[] = { (&PlanarReflection_t439636033_0_0_0) };
+extern const Il2CppGenericInst GenInst_PlanarReflection_t439636033_0_0_0 = { 1, GenInst_PlanarReflection_t439636033_0_0_0_Types };
+static const RuntimeType* GenInst_WaterBase_t3883863317_0_0_0_Types[] = { (&WaterBase_t3883863317_0_0_0) };
+extern const Il2CppGenericInst GenInst_WaterBase_t3883863317_0_0_0 = { 1, GenInst_WaterBase_t3883863317_0_0_0_Types };
 static const RuntimeType* GenInst_Int32U5BU5D_t385246372_0_0_0_Types[] = { (&Int32U5BU5D_t385246372_0_0_0) };
 extern const Il2CppGenericInst GenInst_Int32U5BU5D_t385246372_0_0_0 = { 1, GenInst_Int32U5BU5D_t385246372_0_0_0_Types };
 static const RuntimeType* GenInst_VolumetricLightBeam_t2153204538_0_0_0_Types[] = { (&VolumetricLightBeam_t2153204538_0_0_0) };
@@ -1792,7 +1818,7 @@ static const RuntimeType* GenInst_Utils_GetOrAddComponent_m504419575_gp_0_0_0_0_
 extern const Il2CppGenericInst GenInst_Utils_GetOrAddComponent_m504419575_gp_0_0_0_0 = { 1, GenInst_Utils_GetOrAddComponent_m504419575_gp_0_0_0_0_Types };
 static const RuntimeType* GenInst_Utils_GetOrAddComponent_m4003307350_gp_0_0_0_0_Types[] = { (&Utils_GetOrAddComponent_m4003307350_gp_0_0_0_0) };
 extern const Il2CppGenericInst GenInst_Utils_GetOrAddComponent_m4003307350_gp_0_0_0_0 = { 1, GenInst_Utils_GetOrAddComponent_m4003307350_gp_0_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[620] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[630] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0,
@@ -2168,6 +2194,12 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[620] =
 	&GenInst_BlendMode_t2312137432_0_0_0,
 	&GenInst_Config_t125921618_0_0_0,
 	&GenInst_ParticleSystem_t1800779281_0_0_0,
+	&GenInst_Camera_t4157153871_0_0_0_Boolean_t97287965_0_0_0,
+	&GenInst_Camera_t4157153871_0_0_0_Boolean_t97287965_0_0_0_DictionaryEntry_t3123975638_0_0_0,
+	&GenInst_KeyValuePair_2_t2708414825_0_0_0,
+	&GenInst_Camera_t4157153871_0_0_0_Camera_t4157153871_0_0_0,
+	&GenInst_Camera_t4157153871_0_0_0_Camera_t4157153871_0_0_0_DictionaryEntry_t3123975638_0_0_0,
+	&GenInst_KeyValuePair_2_t2473313435_0_0_0,
 	&GenInst_String_t_0_0_0_Single_t1397266774_0_0_0,
 	&GenInst_KeyValuePair_2_t847377929_0_0_0,
 	&GenInst_RuntimeObject_0_0_0_Single_t1397266774_0_0_0_Single_t1397266774_0_0_0,
@@ -2222,6 +2254,10 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[620] =
 	&GenInst_serializableFromEditorMessage_t3245497382_0_0_0,
 	&GenInst_DontDestroyOnLoad_t1456007215_0_0_0,
 	&GenInst_MeshFilter_t3523625662_0_0_0,
+	&GenInst_Skybox_t2662837510_0_0_0,
+	&GenInst_FlareLayer_t1739223323_0_0_0,
+	&GenInst_PlanarReflection_t439636033_0_0_0,
+	&GenInst_WaterBase_t3883863317_0_0_0,
 	&GenInst_Int32U5BU5D_t385246372_0_0_0,
 	&GenInst_VolumetricLightBeam_t2153204538_0_0_0,
 	&GenInst_Rotater_t3354584216_0_0_0,
