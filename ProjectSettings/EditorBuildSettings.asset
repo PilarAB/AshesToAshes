@@ -35,10 +35,16 @@ EditorBuildSettings:
   - enabled: 0
     path: assets/[externalassets]/UnityARKitPlugin/examples/FaceTracking/FaceDirectionalLightEstimate.unity
     guid: 360fd35caee4f4e069485021a27c0b06
-  - enabled: 1
+  - enabled: 0
     path: assets/Scenes/BowieShadowsAR.unity
     guid: ce5247ea0deda44b5893d6c4d05163d8
   - enabled: 0
     path: assets/[externalassets]/UnityARKitPlugin/examples/FaceTracking/FaceAnchorScene.unity
     guid: 46e299c2ec1244fbaa1b9b14e2ab198a
+  - enabled: 0
+    path: assets/Scenes/A2ATableTop.unity
+    guid: baf15c3e478864e708c9b4bd5cb98987
+  - enabled: 1
+    path: assets/LeanTocuhA22.unity
+    guid: 5cbf1ea3a7fb542f08c5ff67abf83269
   m_configObjects: {}

@@ -24299,6 +24299,11 @@ extern "C"  double Math_Atan2_m182059315 (RuntimeObject * __this /* static, unus
 {
 	return atan2(___y0, ___x1);
 }
+// System.Double System.Math::Exp(System.Double)
+extern "C"  double Math_Exp_m3615232009 (RuntimeObject * __this /* static, unused */, double ___d0, const RuntimeMethod* method)
+{
+	return exp(___d0);
+}
 // System.Double System.Math::Log(System.Double)
 extern "C"  double Math_Log_m2526073084 (RuntimeObject * __this /* static, unused */, double ___d0, const RuntimeMethod* method)
 {

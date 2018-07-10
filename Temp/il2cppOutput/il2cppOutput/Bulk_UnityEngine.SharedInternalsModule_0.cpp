@@ -1907,6 +1907,16 @@ extern "C"  void NotNullAttribute__ctor_m3740658540 (NotNullAttribute_t111494740
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.Bindings.StaticAccessorAttribute::.ctor(System.String)
+extern "C"  void StaticAccessorAttribute__ctor_m1713503113 (StaticAccessorAttribute_t2432663902 * __this, String_t* ___name0, const RuntimeMethod* method)
+{
+	{
+		Attribute__ctor_m1529526131(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___name0;
+		StaticAccessorAttribute_set_Name_m2926172476(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.Bindings.StaticAccessorAttribute::.ctor(System.String,UnityEngine.Bindings.StaticAccessorType)
 extern "C"  void StaticAccessorAttribute__ctor_m2905272167 (StaticAccessorAttribute_t2432663902 * __this, String_t* ___name0, int32_t ___type1, const RuntimeMethod* method)
 {

@@ -1,0 +1,5 @@
+# Exported from 3D Builder
+
+newmtl ashes_figure:initialShadingGroup1
+Kd 0.800000 0.800000 0.800000
+map_Kd texture_0.jpeg
