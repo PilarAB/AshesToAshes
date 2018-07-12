@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/pilara.b./Desktop/AtALeanTouch22
+/Users/pilara.b./Desktop/AtALeanTouch23
 SceneListBegin?
 assets/Scenes/LeanTocuhA22.unity
 SceneListEnd?
